@@ -1,0 +1,137 @@
+[
+    {
+        "id": "comp_001",
+        "name": "Acme Corp",
+        "description": "Building scalable cloud infrastructure for AI agents.",
+        "industry": "Developer Tools",
+        "websiteUrl": "https://acme.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_002",
+        "name": "Stark Industries",
+        "description": "Advanced robotics and defense tech.",
+        "industry": "DeepTech",
+        "websiteUrl": "https://stark.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_003",
+        "name": "Wayne Enterprises",
+        "description": "Logistics and advanced materials.",
+        "industry": "Enterprise",
+        "websiteUrl": "https://wayne.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_004",
+        "name": "Cyberdyne Systems",
+        "description": "Neural net processors and learning mainframes.",
+        "industry": "AI/ML",
+        "websiteUrl": "https://cyberdyne.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_005",
+        "name": "Umbrella Corp",
+        "description": "Biomedicine and pharmaceuticals.",
+        "industry": "BioTech",
+        "websiteUrl": "https://umbrella.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_006",
+        "name": "Massive Dynamic",
+        "description": "Advanced science and fringe tech research.",
+        "industry": "DeepTech",
+        "websiteUrl": "https://massive.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_007",
+        "name": "Aperture Science",
+        "description": "Portal technology and shower curtains.",
+        "industry": "Hardware",
+        "websiteUrl": "https://aperture.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_008",
+        "name": "Oscorp",
+        "description": "Chemical manufacturing and genetics.",
+        "industry": "BioTech",
+        "websiteUrl": "https://oscorp.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_009",
+        "name": "Pied Piper",
+        "description": "Middle-out compression algorithm.",
+        "industry": "Infrastructure",
+        "websiteUrl": "https://piedpiper.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_010",
+        "name": "Hooli",
+        "description": "Search engine and consumer hardware.",
+        "industry": "Consumer",
+        "websiteUrl": "https://hooli.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_011",
+        "name": "Initech",
+        "description": "Software updates and banking transactions.",
+        "industry": "FinTech",
+        "websiteUrl": "https://initech.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_012",
+        "name": "Soylent",
+        "description": "Synthetic food substitutes.",
+        "industry": "FoodTech",
+        "websiteUrl": "https://soylent.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_013",
+        "name": "E Corp",
+        "description": "Global conglomerate and financial services.",
+        "industry": "FinTech",
+        "websiteUrl": "https://ecorp.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_014",
+        "name": "Tyrell Corp",
+        "description": "Synthetic replicants.",
+        "industry": "Robotics",
+        "websiteUrl": "https://tyrell.example.com",
+        "keywords": [],
+        "signals": []
+    },
+    {
+        "id": "comp_015",
+        "name": "Omni Consumer Products",
+        "description": "Urban pacification tech and cyborgs.",
+        "industry": "GovTech",
+        "websiteUrl": "https://ocp.example.com",
+        "keywords": [],
+        "signals": []
+    }
+]
