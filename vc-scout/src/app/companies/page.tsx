@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useCallback } from "react";
+import { useState, useMemo, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { CompanyFilters } from "@/components/companies/company-filters";
 import { DataTable, SortColumn, SortDirection } from "@/components/companies/data-table";
@@ -9,7 +9,7 @@ import { MOCK_COMPANIES } from "@/lib/data/mock-companies";
 
 const ITEMS_PER_PAGE = 10;
 
-export default function CompaniesPage() {
+function CompaniesContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
     const pathname = usePathname();
@@ -155,5 +155,19 @@ export default function CompaniesPage() {
                 />
             </div>
         </div>
+    );
+}
+
+export default function CompaniesPage() {
+    return (
+        <Suspense fallback={
+            <div className="space-y-6 animate-pulse">
+                <div className="h-20 bg-muted rounded-lg w-1/3" />
+                <div className="h-12 bg-muted rounded-lg" />
+                <div className="h-[400px] bg-muted rounded-lg" />
+            </div>
+        }>
+            <CompaniesContent />
+        </Suspense>
     );
 }
