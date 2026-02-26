@@ -106,7 +106,7 @@ export function Sidebar({ className, isOpen, onClose, ...props }: SidebarProps) 
                         )}
                     >
                         <Settings className="mr-3 h-5 w-5" />
-                        Settings
+                        Settings(Future Scope)
                     </Link>
                 </div>
             </div>

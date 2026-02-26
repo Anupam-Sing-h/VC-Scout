@@ -17,7 +17,7 @@ export default function SettingsPage() {
     return (
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-2 duration-500">
             <div>
-                <h1 className="text-3xl font-bold tracking-tight">Workspace Settings</h1>
+                <h1 className="text-3xl font-bold tracking-tight">Workspace Settings(Future Scope)</h1>
                 <p className="text-muted-foreground mt-2">
                     Manage your fund's investment thesis and scout configuration.
                 </p>
